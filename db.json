@@ -1,0 +1,54 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "jhoedoe@mail.com",
+            "pass": "123456"
+        },
+        {
+            "id": 2,
+            "name": "Jane Doe",
+            "email": "janedot@mail.com",
+            "pass": "123456"
+        }
+    ],
+    "groups": [
+        {
+            "id": 1,
+            "name": "Group 1",
+            "users": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Group 2",
+            "users": [
+                1
+            ]
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post 1",
+            "imgPath": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/35211_4DA8E347FB9842EB.jpg?w=1024",
+            "author": 1,
+            "group": null
+        },
+        {
+            "id": 2,
+            "title": "Post 2",
+            "imgPath": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/35211_4DA8E347FB9842EB.jpg?w=1024",
+            "author": 2,
+            "group": 1
+        }
+    ],
+    "profile": {
+        "id": 1,
+        "name": "John Doe",
+        "email": "jhoedoe@mail.com"
+    }
+}
